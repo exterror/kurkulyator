@@ -2,7 +2,7 @@
 	font-family: "Deutsch Gothic";
 	src: url('Deutsch_Gothic.ttf') format('truetype');
 	font-weight: bold;
-  font-style: normal;
+    font-style: normal;
 }
 
  *, 
@@ -27,8 +27,6 @@ body {
     vertical-align: center;
     font-weight: lighter;
     padding-top: 2.2rem; 
-	/* color: #ffffff; */
-    /* background: radial-gradient(circle at 100%, #23A6D5, #23D5AB, #EE7752, #E73C7E, aqua, cyan, magenta, yellowgreen, salmon); */
 	background: repeating-linear-gradient(-50deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #23A6D5, #23D5AB, #EE7752, #E73C7E, aqua, aquamarine, lightcyan, magenta, yellowgreen, salmon, transparent);
     background-size: 1200% 1200%; 
 	-webkit-animation: Gradient 30s ease-in-out infinite;
@@ -101,7 +99,6 @@ body {
     border: 3px double cyan;
 	border-radius: 5px;
     /* filter: hue-rotate(270deg); */
-    box-shadow: outset 10px 5px 5px magenta; 
 
 }
 
@@ -124,7 +121,7 @@ body {
     justify-content: center;
     font-size: 30px;
     cursor: pointer;
-    border: 1px dashed cyan;
+    border: 1px dotted cyan;
 	border-radius: 6px;
 	background: radial-gradient( #3a99be8f, rgb(68, 68, 68));
     padding: 0.25rem 0;
@@ -139,7 +136,7 @@ filter: hue-rotate(110deg);
 }
 
 .clear {
-border: 1px dashed cyan;
+border: 1px dotted cyan;
 color: aqua;
 }
 
