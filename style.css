@@ -101,10 +101,7 @@ body {
     border: 3px double cyan;
 	border-radius: 5px;
     /* filter: hue-rotate(270deg); */
-    box-shadow: inset; 
--webkit-box-shadow: 4px 4px 8px 0px rgba(34, 80, 80, 0.2);
--moz-box-shadow: 4px 4px 8px 0px rgba(34, 80, 80, 0.2);
-box-shadow: 4px 4px 8px 0px rgba(34, 80, 80, 0.2);
+    box-shadow: outset 10px 5px 5px magenta; 
 
 }
 
@@ -127,7 +124,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 80, 80, 0.2);
     justify-content: center;
     font-size: 30px;
     cursor: pointer;
-    border: 1px dotted cyan;
+    border: 1px dashed cyan;
 	border-radius: 6px;
 	background: radial-gradient( #3a99be8f, rgb(68, 68, 68));
     padding: 0.25rem 0;
@@ -142,7 +139,7 @@ filter: hue-rotate(110deg);
 }
 
 .clear {
-border: 1px dotted cyan;
+border: 1px dashed cyan;
 color: aqua;
 }
 
